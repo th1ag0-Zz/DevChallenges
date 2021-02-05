@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+
+html, body {
+  height: 100%;
+  flex-direction: column;
+  display: flex;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+header {
+  padding: 28px 2% 0;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .container .title-box h1 {
+  color: #D2872C;
+  font-size: 34px;
+}
+
+header .container .menu-box {
+  display: flex;
+  list-style: none;
+  font-size: 20px;
+}
+
+header .container .menu-mobile {
+  display: none;
+  width: 32px;
+  height: 32px;
+  background: url('../assets/menu.svg') no-repeat;
+  background-size: contain;
+}
+
+header .container .menu-box li {
+  cursor: pointer;
+  color: #333333;
+}
+
+header .container .menu-box li + li {
+  margin-left: 20px;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+main .container {
+  width: 100%;
+  padding: 0 4%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main .container .content {
+  width: 50%;
+}
+
+main .container .content h1 {
+  font-size: 72px;
+  margin-bottom: 20px;
+  max-width: 550px;
+  color: #766F68;
+}
+
+main .container .content p {
+  color: #766F68;
+  font-size: 26px;
+  max-width: 400px;
+  margin-bottom: 28px;
+}
+
+main .container .content button {
+  width: 280px;
+  height: 48px;
+  outline: 0;
+  border: 0;
+  background-color: #D2872C;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  color: #fff;
+  font-weight: bold;
+}
+
+main .container .img-box {
+  width: 50%;
+}
+
+main .container .img-box img {
+  width: 100%;
+}
