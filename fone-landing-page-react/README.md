@@ -1,3 +1,5 @@
+https://fone-landing-page-cixvgwqf2-th1ag0-zz.vercel.app/
+
 ## Tecnologies
 * ReactJS
 * TypeScript

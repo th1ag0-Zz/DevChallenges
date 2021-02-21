@@ -57,7 +57,19 @@ header .icons a img {
 }
 
 @media (max-width: 700px) {
+  header {
+    padding: 5px 0;
+  }
+
+  header .logo {
+    width: 80px;
+  }
+
   header .navigation {
     display: none;
+  }
+
+  header .icons a img {
+    height: 21px;
   }
 }

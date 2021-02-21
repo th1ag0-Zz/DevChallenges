@@ -74,3 +74,75 @@
   background-color: var(--red);
   color: #fff
 }
+
+@media (max-width: 900px) {
+  .title {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+
+  .description {
+    margin-bottom: 12px;
+    font-size: 15px;
+  }
+
+  .avaliations {
+    font-size: 15px;
+  }
+
+  .add-car-session .price-value {
+    font-size: 28px;
+  }
+
+  .add-car-session .add-car-button {
+    width: 150px;
+    height: 38px;
+    
+    font-size: 14px;
+    cursor: none;
+  }
+}
+
+@media (max-width: 700px) {
+  .infos {
+    width: 100%;
+  }
+
+  .title {
+    font-size: 28px;
+    margin: 18px 0;
+  }
+
+  .description {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+
+  .avaliations {
+    font-size: 14px;
+  }
+
+  .title-session {
+    font-size: 13px;
+  }
+
+  .dimension-product {
+    margin: 14px 0;
+  }
+
+  .info-session {
+    font-size: 13px;
+  }
+
+  .add-car-session .price-value {
+    font-size: 26px;
+  }
+
+  .add-car-session .add-car-button {
+    width: 140px;
+    height: 36px;
+    background-color: var(--red);
+    color: #fff;
+  }
+
+}
