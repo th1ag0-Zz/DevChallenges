@@ -23,15 +23,15 @@ const Header = () => {
         </ul>
 
         <div className="icons">
-          <a href="#">
+          <a href="/">
             <img src={search} alt="menu"/>
           </a>
 
-          <a href="#">
+          <a href="/">
             <img src={carrinho} alt="menu"/>
           </a>
 
-          <a href="#">
+          <a href="/">
             <img src={menu} alt="menu"/>
           </a>
         </div>

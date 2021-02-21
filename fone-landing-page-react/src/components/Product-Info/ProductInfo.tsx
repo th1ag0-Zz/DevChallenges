@@ -2,7 +2,7 @@ import React from 'react';
 
 import './styles.css'
 
-const Product_Info = () => {
+const ProductInfo = () => {
   return (
     <div className="infos">
       <div className="infos-box">
@@ -31,4 +31,4 @@ const Product_Info = () => {
   )
 }
 
-export default Product_Info;
+export default ProductInfo;

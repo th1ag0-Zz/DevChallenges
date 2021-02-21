@@ -1,6 +1,6 @@
 import React from 'react';
 import Carousel from '../Carousel/Carousel'
-import Product_Info from '../Product-Info/Product-Info';
+import ProductInfo from '../Product-Info/ProductInfo';
 
 import './styles.css'
 
@@ -10,7 +10,7 @@ const Content = () => {
 
       <main>
         <Carousel />
-        <Product_Info />
+        <ProductInfo />
       </main>
 
     </div>
