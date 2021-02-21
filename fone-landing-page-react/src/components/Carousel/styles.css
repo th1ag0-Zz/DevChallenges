@@ -1,0 +1,33 @@
+div.awssld { /* carousel inteiro */
+  position: relative;
+  width: 60%;
+}
+
+.awssld__content {
+  background-color: #fff !important;
+}
+
+.awssld__content > img {
+  object-fit: contain !important;
+  margin-left: 40px;
+}
+
+.awssld__bullets { /* bullets */
+  display: flex;
+  flex-direction: column;
+  z-index: 999;
+  position: absolute;
+  width: auto;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+.awssld__bullets button {
+ background: var(--gray-light);
+ margin: 15px 0;
+}
+
+.awssld__bullets .awssld__bullets--active {
+  background-color: var(--red);
+}
