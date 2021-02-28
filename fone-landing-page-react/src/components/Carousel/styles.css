@@ -37,12 +37,12 @@ div.awssld { /* carousel inteiro */
 
 @media (max-width: 900px) {
   div.awssld {
-    width: 50%;
+    width: 55%;
   }
 
   .awssld__content > img {
     margin-left: 40px;
-    width: 80%;
+    width: 100%;
   }
 }
 
