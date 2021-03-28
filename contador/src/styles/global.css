@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+@media (max-width: 720px) {
+  :root {
+    font-size: 90%;
+  }
+}
+
+@media (max-width: 500px) {
+  :root {
+    font-size: 80%;
+  }
+}
+
+@media (max-width: 420px) {
+  :root {
+    font-size: 65.5%;
+  }
+}
