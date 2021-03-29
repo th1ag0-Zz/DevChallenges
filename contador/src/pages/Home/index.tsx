@@ -18,8 +18,8 @@ const Home: React.FC = () => {
         required
         type="date"
         onChange={e => setDataValue(e.target.value)}
-      />
-      <Link to="/contador">
+      /> 
+      <Link to={{ pathname: "/contador", state: dataValue}}>
         <ButtonComponent value="Iniciar contagem" />
       </Link>
     </Container>

@@ -30,13 +30,20 @@ export const Content = styled.div`
   align-items: center;
   justify-content: center;
   flex: 1;
-  padding: 0 2%;
+
+  @media(max-width: 620px) {
+    justify-content: flex-start;
+  }
 `
 
 export const Text = styled.h1`
   color: ${colors.gray};
   font-size: 4.8rem;
   margin-bottom: 2rem;
+
+  @media(max-width: 620px) {
+    margin: 2rem 0;
+  }
 `
 
 export const TimeContent = styled.div`
@@ -47,12 +54,21 @@ export const TimeContent = styled.div`
   grid-template-rows: 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 1rem;
+  padding: 0 1rem;
+
+  @media(max-width: 620px) {
+    height: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: .3fr .3fr;
+    gap: .8rem;
+  }
 `
 
 export const TimeSingle = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content:center;
 `
 
 export const ValueText = styled.span`
